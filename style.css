@@ -8,3 +8,33 @@ body {
     margin: auto;
     padding: 1em;
 }
+
+header {
+    display: flex;
+    gap: 1em;
+    align-items: baseline;
+  }
+  
+label {
+    margin-left: auto;
+}
+  
+#selected-time, #any-time {
+      display: block;
+}
+  
+#any-time {
+    color: gray;
+    font-style: italic;
+}
+
+header {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
